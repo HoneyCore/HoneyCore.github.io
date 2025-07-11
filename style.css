@@ -1,0 +1,228 @@
+html
+{
+    background: #03012b;
+    background: linear-gradient(30deg, rgba(3, 1, 43, 1) 40%, rgba(11, 94, 94, 1) 100%);
+    background-attachment: fixed;
+    font-size: medium;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100%;
+}
+
+nav
+{
+    background: #03012b;
+    background: linear-gradient(90deg, rgba(3, 1, 43, 1) 40%, rgba(11, 94, 94, 1) 100%);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: white 1px;
+}
+
+.nav-item
+{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition-property: text-decoration;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+    padding: 10px 10px;
+
+    /*add those for opera and mozilla support*/
+    -webkit-text-decoration-color: transparent;
+    -moz-text-decoration-color: transparent;
+}
+
+.nav-item:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: white;
+
+    /*add those for opera and mozilla support*/
+    -webkit-text-decoration-color: white;
+    -moz-text-decoration-color: white;
+}
+
+.nav-item:visited, .nav-item:active
+{
+    color: white;
+}
+
+h1
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 a
+{
+    text-decoration: none;
+}
+
+h1 a:hover
+{
+    cursor: pointer;
+}
+
+h1 a:visited, h1 a:active
+{
+    color: white;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block
+}
+
+.dropdown button
+{
+    background-color: #00000000;
+    border-color: white;
+    border-radius: 1px;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    min-width: 150px;
+}
+
+.dropcontent
+{
+    background-color: #03012b;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropcontent button
+{
+    border-color: white;
+    border-radius: 1px;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    min-width: 150px;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropcontent
+{
+    display: block;
+}
+
+.dropcontent button:hover
+{
+    background-color: #060252;
+    text-decoration: underline;
+}
+
+.block
+{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 170px 0px;
+    padding: 50px 50px;
+}
+.block div
+{
+    height: 100%;
+    width: 75%;
+}
+
+.block-title
+{
+    grid-column: 1;
+    font-size: 70px;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+.block-text
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    padding: 10px 0px;
+    margin: 0px 20px;
+}
+
+.block hr
+{
+    border-color: white;
+    width: 20%;
+}
+
+.block-image
+{
+    width: 50%;
+    border-radius: 20px 180px 20px 120px;
+}
+
+.block-button
+{
+    font-size: 20px;
+    color: white;
+    background-color: #03012b00;
+    border-color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.block-button:hover
+{
+    color: #03012b;
+    background-color: white;
+}
+
+footer
+{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.vertical-sep
+{
+    border: 1px solid lightgray;
+    height: 25px;
+    width: 0px;
+    margin: 0px 30px;
+}
+
+footer h1
+{
+    color: #03012b;
+    margin: 0px 30px;
+
+}
+
+footer a
+{
+    color: gray;
+    font-size: 1em;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+}

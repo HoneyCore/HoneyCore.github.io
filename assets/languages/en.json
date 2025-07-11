@@ -1,0 +1,31 @@
+{
+    "title-main":           "HoneyCore | Home",
+    "title-products":       "HoneyCore | Products",
+
+    "products":             "Products",
+    "getting-started":      "Getting started",
+    "documentation":        "Documentation",
+    "about_us":             "About Us",
+    "language":             "Language",
+    "first-block-title":    "The future of education.",
+    "first-block-text":     "HoneyCore helps you teachning computer science to children very efficiently. And I absolutely don't have a huge ego by putting it this way.",
+    "first-block-btn":      "Getting started",
+    "second-block-title":   "A clear and simple documentation",
+    "second-block-text":    "HoneyCore's documentation is clear, simple and elegant. It is a powerful tool to unlock HoneyCore's complete potential.",
+    "second-block-btn":     "Discover documentation",
+    "third-block-title":    "More than a virtual machine",
+    "third-block-text":     "HoneyCore is not only a virtual machine. HoneyCore solution is also a programming language and even an operating system.",
+    "third-block-btn":      "Discover our other products",
+
+    "vm-title":             "HoneyCoreVM",
+    "vm-text":              "The simplest and most accessible virtual machine on the market. Its simplicity makes it perfect for educationnal purposes. My ego is massive.",
+    "vm-btn":               "Download HoneyCoreVM",
+    "language-title":       "HoneyPot",
+    "language-text":        "The first programming language designed for education. It's ease of use and quick compilation makes it the perfect fit for HoneyCore architecture.",
+    "language-btn":         "Try HoneyPot",
+
+    "privacy-policy":       "Privacy policy",
+    "terms":                "Terms of service",
+    "accessibility":        "Accessibility",
+    "contact":              "Contact Us"
+}
